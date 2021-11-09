@@ -11,6 +11,16 @@ Breadcrumbs::for('admin.file_manager.index', function ($trail) {
     $trail->push('File Manager', route('admin.file_manager.index'));
 });
 
+
+
+Breadcrumbs::for('admin.contact_us.index', function ($trail) {
+    $trail->push('Contact Us', route('admin.contact_us.index'));
+});
+Breadcrumbs::for('admin.contact_us.edit', function ($trail) {
+    $trail->push('Edit Contact Us', route('admin.contact_us.edit',1));
+});
+
+
 Breadcrumbs::for('admin.settings.index', function ($trail) {
     $trail->push('General Settings', route('admin.settings.index'));
 });

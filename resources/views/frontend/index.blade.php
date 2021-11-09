@@ -8,6 +8,21 @@
 
 @section('content')
 
+@if ( session()->has('message') )
+   
+    <div class="container" style="background-color: #BDB76B; padding-top:5px; margin-bottom:50px; border-radius: 50px 50px; text-align:center;">
+
+        <h1 style="margin-top:150px;" class="fs-1">Thank You!</h1><br>
+        <p class="lead mb-3"><h4>We appreciate you contacting us. One of our member will get back in touch with you soon!<br><br> Have a great day!</h4></p>
+        <br><hr><br>    
+        <p class="lead">
+            <a class="btn btn-warning btn-md px-4 mt-3 mb-3" href="{{url('/')}}" role="button">Go Back</a>
+        </p>
+    <br>
+</div>
+
+@else 
+
     <div class="container-fluid p-0 position-relative banners" style="margin-top: 4.4rem;">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -96,7 +111,8 @@
                 <div class="row">
                     <div class="col-12 col-md-6 mb-5 mb-md-0">
                         <div class="contact-form custom-shadow">
-                            <form action="" method="post" enctype="multipart/form-data">
+                            <form action="{{route('frontend.contact.store')}}" method="post" enctype="multipart/form-data">
+                            {{csrf_field()}}
                                 <h4 class="fw-bold mb-1">Let Us Call You!</h4>
                                 <h6 class="fw-bold mb-4">To help you choose your property</h6>
 
@@ -113,7 +129,7 @@
                                                     <option value="+95">+95</option>
                                                 </select>
                                             </div>
-                                            <input type="text" class="form-control rounded-0" name="phone" id="phone" placeholder="Your Number" required>
+                                            <input type="text" class="form-control rounded-0" name="phone_number" id="phone_number" placeholder="Your Number" required>
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +220,9 @@
             </div>
         </div>
     </div>
-    
+
+@endif
+
 @endsection
 
 
