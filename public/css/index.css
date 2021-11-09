@@ -1,0 +1,119 @@
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -35px;
+}
+.swiper-pagination-bullet {
+	padding: 0px 35px;
+	border-radius: 0;
+	width: auto;
+	height: 5px;
+	text-align: center;
+	opacity: 1;
+	background: transparent;
+    border: 1px solid #88C84A;
+}
+.swiper-pagination-bullet-active {
+	background: #88C84A;
+}
+
+.cashew-banner {
+    background-image: url('../img/frontend/index/cashew_banner.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+}
+
+.quality-banner {
+    background-image: url('../img/frontend/index/quality_banner.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+}
+
+
+.contact-form {
+    padding: 1.25rem 2rem 0rem 2rem;
+    height: 540px;
+}
+.contact-cards .form-control {
+    border: 1px solid rgb(53, 74, 94, 0.5)!important;
+}
+
+.contact-cards .input-group .form-select {
+    padding: .100rem 1.75rem .100rem .30rem!important;
+    background-color: #35495E;
+    border: 1px solid rgb(53, 74, 94, 0.5)!important;
+    border-radius: 0!important;
+}
+.contact-cards .input-group select {
+    color: white!important;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='fas fa-chevron-down' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+.contact-cards ::placeholder { /* Chrome/Opera/Safari */
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0, 0.37);
+}
+.form-check-label {
+    font-size: 0.8rem;
+    color: #666666;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.3rem!important;
+}
+.submit-btn {
+    background-color: #35495E;
+    color: white;
+    padding: 1rem 0;
+}
+.submit-btn:hover {
+    color: white!important;
+    background-color: #5c0606;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: -25px;
+    }
+    .swiper-pagination-bullet {
+        padding: 0px 15px;
+        height: 4px;
+    }
+    .cashew-banner {
+        margin-top: 2rem!important;
+        height: 610px!important;
+    }
+    .cashew-banner-inner {
+        padding-top: 1rem!important;
+    }
+    .cashew-banner-inner h1 {
+        font-size: 4.5rem!important;
+    }
+    .cashew-banner-inner .sub-title {
+        font-size: 1.4rem!important;
+    }
+    .quality-banner {
+        margin-top: 1.5rem!important;
+        height: 430px!important;
+    }
+    .quality-banner .row {
+        padding-top: 3rem!important;
+    }
+    .contact-form {
+        height: 635px;
+    }
+    .g-recaptcha {
+        transform: scale(0.95)!important;
+        -webkit-transform: scale(0.95)!important;
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        padding-top: 1rem!important;
+    }
+}

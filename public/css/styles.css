@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0!important;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.main-nav .nav-item {
+    padding: 0 0.8rem;
+}
+.main-nav a {
+    color: white!important;
+    font-size: 0.9rem;
+    border-bottom: 2px solid transparent;
+}
+.main-nav a:hover {
+    border-bottom: 2px solid white;
+}
+.logo {
+    left: 43%;
+    top: -1rem;
+}
+.logo img {
+    height: 7.5rem;
+}
+.buy {
+    background-color: #FFCC00!important;
+    border-radius: 35px!important;
+    font-size: 0.9rem!important;
+}
+.our {
+    color: white!important;
+    border-radius: 35px!important;
+    border: 1px solid white!important;
+    font-size: 0.9rem!important;
+}
+.main-nav .input-group ::placeholder { /* Chrome/Opera/Safari */
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255, 0.5);
+    border-left: 1px solid white!important;
+    padding-left: 10px;
+}
+.main-nav .input-group .form-control { /* Chrome/Opera/Safari */
+    background-color: transparent!important;
+    border: none!important;
+    color: white;
+}
+.custom-shadow {
+    box-shadow: 0 0rem 1rem rgba(0,0,0,.175);
+}
+
+
+.footer p, .footer .second-column i {
+    font-size: 0.8rem;
+}
+
+.footer .links a {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    font-size: 0.9rem;
+}
+
+.footer .links a:hover {
+    border-bottom: 2px solid white;
+}
+
+.social i {
+    font-size: 3rem;
+}
+
+.footer hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid white;
+}
+
+.g-recaptcha {
+    display: inline-block!important;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .logo {
+        left: 41%;
+        top: -0.5rem;
+    }
+    .logo img {
+        height: 3.5rem;
+    }
+    .main-nav {
+        height: auto!important;
+    }
+    .main-nav a {
+        display: inline-block;
+        margin-bottom: 0.7rem;
+    }
+    .left-nav {
+        text-align: center!important;
+        margin-top: 1.5rem;
+    }
+    .right-nav {
+        text-align: center!important;
+    }
+    .right-nav .our, .right-nav .buy {
+        margin-bottom: 0.7rem;
+        width: 75%;
+    }
+    .right-nav .input-group {
+        width: 75%;
+        margin-bottom: 0.7rem;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .banners {
+        margin-top: 3.5rem!important;
+    }
+    .quick {
+        padding-left: 15px!important;
+    }
+    .social br {
+        display: none;
+    }
+
+    .footer img {
+        height: 5rem!important;
+    }
+}
