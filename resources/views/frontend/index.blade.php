@@ -209,9 +209,12 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12" style="margin-bottom: 2.85rem;">
-                                    <h6 class="fw-bolder mb-3">Anur Products</h6>
-                                    <p class="fw-bold ms-3" style="line-height: 1.4rem;">No.285,<br>Galloluwa,<br> Minuwangoda, <br>Sri Lanka</p>
+                                <div class="col-12" style="margin-bottom: 1.85rem; !important;">
+                                    <h6 class="fw-bolder mb-3" style="margin-bottom: 0rem !important;">Anur Products</h6>
+                                    <p class="fw-bold ms-3"style="line-height: 1.4rem;margin-left: 0px !important;" > No.285,
+                                        <br>Galloluwa,
+                                        <br> Minuwangoda,
+                                        <br>Sri Lanka</p>
                                 </div>
                             </div>
                         </div>

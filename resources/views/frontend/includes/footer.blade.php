@@ -1,12 +1,11 @@
 <section class="container-fluid pt-4 pt-md-5 pb-3 text-white footer" style="background-color: #433A07">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md">
+            <div class="col-12 col-md" style="padding-top: 70px;">
                 <a href="{{ route('frontend.index') }}">
                     <img src="{{ url('img/logo.png') }}" alt="" class="img-fluid" style="height: 8rem; object-fit: cover;">
                 </a>
 
-                <p class="text-white mt-3 mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
             </div>
 
