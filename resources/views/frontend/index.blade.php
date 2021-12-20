@@ -171,8 +171,8 @@
                     <div class="ol-12 col-md-6">
                         <div class="contact-form custom-shadow">
                             <h4 class="fw-bold mb-2">Contact Us</h4>
-
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quod earum voluptates consequatur. Aspernatur perspiciatis blanditiis quos provident doloremque, vero odio nemo maxime aut ipsam consequatur nostrum saepe ipsum voluptatem?</p>
+<!-- 
+                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quod earum voluptates consequatur. Aspernatur perspiciatis blanditiis quos provident doloremque, vero odio nemo maxime aut ipsam consequatur nostrum saepe ipsum voluptatem?</p> -->
 
 
                             <div class="row mt-5">
@@ -186,32 +186,32 @@
                                             <i class="bi bi-telephone-fill"></i>
                                         </div>
                                         <div class="col-11">
-                                            <p>0094 11 2942952 / 11 5022832</p>
+                                            <p>0777531545</p>
                                         </div>
                                     </div>
 
-                                    <div class="row align-items-center mb-3">
+                                    <!-- <div class="row align-items-center mb-3">
                                         <div class="col-1 pr-0">
                                             <img src="{{url('img/frontend/index/fax.png')}}" alt="" style="height: 1rem; width: 1rem;">
                                         </div>
                                         <div class="col-11">
                                             <p>0094 11 5526575</p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="row align-items-center">
                                         <div class="col-1 pr-0">
                                             <i class="bi bi-envelope-fill"></i>
                                         </div>
                                         <div class="col-11">
-                                            <p>info@anur.com</p>
+                                            <p>anurcompany@yahoo.com</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="col-12" style="margin-bottom: 2.85rem;">
                                     <h6 class="fw-bolder mb-3">Anur Products</h6>
-                                    <p class="fw-bold ms-3" style="line-height: 1.4rem;">45/a 1st Avenue, <br> London, <br> USA</p>
+                                    <p class="fw-bold ms-3" style="line-height: 1.4rem;">No.285,<br>Galloluwa,<br> Minuwangoda, <br>Sri Lanka</p>
                                 </div>
                             </div>
                         </div>

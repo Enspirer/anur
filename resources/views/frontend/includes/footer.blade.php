@@ -64,14 +64,14 @@
                 <div class="row text-center text-md-left">
                     <div class="col-12">
                         <a href="" class="me-4"><i class="fab fa-facebook-square text-white"></i></a>
-
+<!-- 
                         <a href="" class="me-4"><i class="fab fa-instagram text-white"></i></a>
 
                         <br><br>
 
                         <a href="" class="me-4"><i class="fab fa-linkedin text-white"></i></a>
 
-                        <a href="" class="me-4"><i class="fab fa-youtube-square text-white"></i></a>
+                        <a href="" class="me-4"><i class="fab fa-youtube-square text-white"></i></a> -->
 
                     </div>
                 </div>
