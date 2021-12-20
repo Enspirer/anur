@@ -42,7 +42,7 @@
     </div>
 
 
-    <div class="container-fluid cashew-banner" style="margin-top: 3rem;">
+    <div id="about-us" class="container-fluid cashew-banner" style="margin-top: 3rem; padding-top:5rem;">
         <div class="container">
             <div class="row align-items-center cashew-banner-inner" style="padding-top: 4rem;">
                 <div class="col-12 col-md-6">
@@ -71,7 +71,7 @@
     </div>
 
 
-    <div class="container" style="margin-top: 3rem;">
+    <div id="products" class="container" style="padding-top:9rem;">
 
         <h4 class="fw-bold text-center mb-5">Our Product Range</h4>
 
@@ -105,7 +105,7 @@
         </div>
     </div>
 
-    <div class="container contact-cards" style="margin-top: 4rem; margin-bottom: 5rem;">
+    <div id="contact" class="container contact-cards" style="margin-top: 4rem; margin-bottom: 5rem; padding-top: 9rem;">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10">
                 <div class="row">
