@@ -139,3 +139,28 @@ p {
         height: 5rem!important;
     }
 }
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        left: 45%;
+        top: -0.5rem;
+    }
+    .logo img {
+        height: 3.5rem;
+    }
+    .main-nav {
+        height: auto!important;
+    }
+    .main-nav a {
+        display: inline-block;
+        margin-bottom: 0.7rem;
+    }
+    .left-nav {
+        text-align: center!important;
+        margin-top: 1.5rem;
+    }
+    .right-nav {
+        text-align: center!important;
+    }
+}
