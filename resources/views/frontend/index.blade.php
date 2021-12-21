@@ -177,10 +177,18 @@
 
                             <div class="row mt-5">
                                 <div class="col-12 mb-3">
-                                    <h6 class="fw-bolder">Head Office</h6>
-                                </div>
+                                    <!-- <h6 class="fw-bolder">Head Office</h6>
+                                </div> -->
                             
                                 <div class="col-12 main-office ms-3 mb-5">
+
+                                    <div class="row align-items-center mb-3" style="margin-bottom: 1rem;">
+                                        <h6 class="fw-bolder mb-3">Anur Products</h6>
+                                        <div class="inner-wrapper">
+                                        <i style="color:#000;" class="bi bi-geo-alt-fill"></i> <p class="fw-bold ms-3" style="line-height: 1.4rem;">No.285,<br>Galloluwa,<br> Minuwangoda, <br>Sri Lanka</p>
+                                        </div>
+                                    </div>
+
                                     <div class="row align-items-center mb-3">
                                         <div class="col-1 pr-0">
                                             <i class="bi bi-telephone-fill"></i>
@@ -209,10 +217,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12" style="margin-bottom: 2.85rem;">
-                                    <h6 class="fw-bolder mb-3">Anur Products</h6>
-                                    <p class="fw-bold ms-3" style="line-height: 1.4rem;">No.285,<br>Galloluwa,<br> Minuwangoda, <br>Sri Lanka</p>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -220,7 +225,7 @@
             </div>
         </div>
     </div>
-
+</div>
 @endif
 
 @endsection

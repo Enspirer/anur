@@ -12,9 +12,7 @@ p {
     font-size: 0.9rem;
 }
 
-.main-nav .nav-item {
-    padding: 0 0.8rem;
-}
+
 .main-nav a {
     color: white!important;
     font-size: 0.9rem;
@@ -90,15 +88,38 @@ p {
     max-width: 720px !important;
 }
 
+.inner-wrapper {
+    display: flex;
+}
 
+.navbar-nav {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+}
 
+li.nav-item {
+    flex: 1;
+    padding: 25px;
+    text-align: center;
+}
+
+li.logo-icon {
+    flex: 2;
+    margin-top: 15px;
+}
+
+ul.navbar-nav.me-auto {
+    margin-left: auto;
+    margin-right: auto !important;
+}
 
 @media screen and (max-width: 576px) {
-    .logo {
+    /* .logo {
         left: 41%;
         top: -0.5rem;
-    }
-    .logo img {
+    } */
+    .logo-wrapper img {
         height: 3.5rem;
     }
     .main-nav {
@@ -108,7 +129,7 @@ p {
         display: inline-block;
         margin-bottom: 0.7rem;
     }
-    .left-nav {
+    /* .left-nav {
         text-align: center!important;
         margin-top: 1.5rem;
     }
@@ -124,7 +145,7 @@ p {
         margin-bottom: 0.7rem;
         margin-left: auto!important;
         margin-right: auto!important;
-    }
+    } */
     .banners {
         margin-top: 3.5rem!important;
     }
@@ -138,17 +159,43 @@ p {
     .footer img {
         height: 5rem!important;
     }
+
+    li.nav-item {
+        padding: 15px 0;
+        text-align: center;
+    } 
+
+    .logo-wrapper {
+        text-align: center;
+    }
 }
 
 /*tab-portrait*/
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo {
+    /* .logo {
         left: 45%;
         top: -0.5rem;
+    } */
+
+    li.nav-item {
+        padding: 15px 0;
+        text-align: center;
+    } 
+    .logo-wrapper {
+        text-align: center;
     }
-    .logo img {
+
+    button.navbar-toggler {
+        margin: 15px;
+    }
+    .logo-wrapper img {
         height: 3.5rem;
     }
+
+    ul.navbar-nav.me-auto {
+        text-align: center;
+    }
+
     .main-nav {
         height: auto!important;
     }
@@ -156,13 +203,13 @@ p {
         display: inline-block;
         margin-bottom: 0.7rem;
     }
-    .left-nav {
+    /* .left-nav {
         text-align: center!important;
         margin-top: 1.5rem;
     }
     .right-nav {
         text-align: center!important;
-    }
+    } */
 
     .container-fluid.p-0.position-relative.banners {
         margin-top: 3.4rem !important;
