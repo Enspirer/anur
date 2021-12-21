@@ -48,7 +48,7 @@
                 <div class="col-12 col-md-6">
                     <div class="row align-items-center mb-2 mb-md-0">
                         <div class="col-7">
-                            <h1 class="fw-bold" style="font-size: 7rem; color: #855605">100%</h1>
+                            <h1 class="fw-bold tab-font" style="font-size: 7rem; color: #855605">100%</h1>
                         </div>
                         <div class="col-5">
                             <p class="fw-bold sub-title" style="font-size: 2.3rem; color: #855605">Sri Lankan</p>
@@ -117,12 +117,12 @@
                                 <h6 class="fw-bold mb-4">To help you choose your property</h6>
 
                                 <div class="mb-3">
-                                    <div class="row">
-                                        <div class="col-6">
+                                    <div class="row mobile-row">
+                                        <div class="col-6 mobile-100">
                                             <input type="text" class="form-control rounded-0" name="name" id="name" placeholder="Your Name" required>
                                         </div>
 
-                                        <div class="col-6 input-group">
+                                        <div class="col-6 input-group mobile-100">
                                             <div class="input-group-prepend">
                                                 <select class="form-select" aria-label="country_code" id="country_code" name="agent_type" required>
                                                     <option value="+94">+94</option>
@@ -155,7 +155,7 @@
                                 </div>
 
                             
-                                <div class="row align-items-center">
+                                <div class="row tab-row">
                                     <div class="col-12 text-center col-md-6 text-md-left">
                                         <div class="g-recaptcha" data-callback="checked" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR" style="transform: scale(0.80); -webkit-transform: scale(0.80); transform-origin: 0 0; -webkit-transform-origin: 0 0; padding-top: 2rem"></div>
                                     </div>

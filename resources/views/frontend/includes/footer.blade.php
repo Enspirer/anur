@@ -1,12 +1,12 @@
 <section class="container-fluid pt-4 pt-md-5 pb-3 text-white footer" style="background-color: #433A07">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md" style="padding-top: 70px;">
-                <a href="{{ route('frontend.index') }}">
-                    <img src="{{ url('img/logo.png') }}" alt="" class="img-fluid" style="height: 8rem; object-fit: cover;">
-                </a>
-
-
+            <div class="col-12 col-md">
+                <div class="footer-logo-wrapper">
+                    <a href="{{ route('frontend.index') }}">
+                        <img src="{{ url('img/logo.png') }}" alt="" class="img-fluid" style="height: 8rem; object-fit: cover;">
+                    </a>
+                </div>
             </div>
 
             <div class="col-12 col-md second-column">
@@ -14,7 +14,7 @@
                 <h6 class="fw-bold mt-4 mt-md-5 mb-4">Contact Information</h6>
 
                 <div class="row align-items-center mb-3 ms-2 ms-md-0">
-                    <div class="col-2 pr-0">
+                    <div class="col-2 pr-0 tab-p-0">
                         <i class="bi bi-telephone-fill text-white"></i>
                     </div>
                     <div class="col-10 pl-0">
@@ -23,16 +23,16 @@
                 </div>
 
                 <div class="row align-items-center mb-3 ms-2 ms-md-0">
-                    <div class="col-2 pr-0">
+                    <div class="col-2 pr-0 tab-p-0">
                         <i class="bi bi-envelope-fill text-white"></i>
                     </div>
-                    <div class="col-10 pl-0">
+                    <div class="col-10 pl-0 tab-p-0">
                         <p class="text-white">anurcompany@yahoo.com</p>
                     </div>
                 </div>
 
                 <div class="row align-items-center mb-3 ms-2 ms-md-0">
-                    <div class="col-2 pr-0">
+                    <div class="col-2 pr-0 tab-p-0">
                         <i class="bi bi-geo-alt-fill text-white"></i>
                     </div>
                     <div class="col-10 pl-0">
@@ -61,7 +61,7 @@
                 <h6 class="fw-bold mt-4 mt-md-5 mb-4">Follow Us</h6>
 
                 <div class="row text-center text-md-left">
-                    <div class="col-12">
+                    <div class="col-12 fb-aria">
                         <a href="" class="me-4"><i class="fab fa-facebook-square text-white"></i></a>
 <!-- 
                         <a href="" class="me-4"><i class="fab fa-instagram text-white"></i></a>
