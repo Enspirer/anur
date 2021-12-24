@@ -212,7 +212,7 @@
                                             <i class="bi bi-envelope-fill"></i>
                                         </div>
                                         <div class="col-11">
-                                            <p>anurcompany@yahoo.com</p>
+                                            <p>anurproducts@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>

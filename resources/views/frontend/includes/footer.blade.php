@@ -27,7 +27,7 @@
                         <i class="bi bi-envelope-fill text-white"></i>
                     </div>
                     <div class="col-10 pl-0 tab-p-0">
-                        <p class="text-white">anurcompany@yahoo.com</p>
+                        <p class="text-white">anurproducts@gmail.com</p>
                     </div>
                 </div>
 
